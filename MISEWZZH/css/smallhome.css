@@ -1,0 +1,79 @@
+@charset "utf-8";
+/*css Document*/
+.smallhome2{
+	margin: 50px auto;	
+}
+.smallhome{
+	text-align: center;
+}
+.smallhome img{
+	margin: 0 auto;
+}
+.smallhome2 h1{
+	color: #414141;
+	font-size: 30px;
+	text-align: center;
+}
+.smallhome2 p{
+  	color: #a6a6a6;
+  	font-size: 16px;
+  	margin-top: 20px;
+}
+.smallhome2 h3{
+	color: #000;
+	font-size: 20px;
+	margin:60px auto;
+	text-align: center;
+}
+.smallhome3{
+    width: auto;
+    text-align: center;
+}
+.smallhome3 img{
+	vertical-align: middle;
+}
+.smallhome3 h3{
+	color: #414141;
+	font-size: 18px;
+	padding-top: 30px;
+	text-align: center;
+}
+.smallhome3 p{
+	color: #a6a6a6;
+	font-size: 16px;
+	padding-top: 20px;
+	text-align: left;
+}
+@media (min-width: 768px) {
+  .smallhome2{
+  	width: auto;
+  }
+  .smallhome2 h3{
+  	font-size: 20px;
+  }
+  .smallhome3{
+    width: auto;
+  }
+}
+@media (min-width: 992px) {
+  .smallhome2{
+  	width: 800px;
+  }
+   .smallhome2 h3{
+  	font-size: 30px;
+  }
+  .smallhome3{
+    width: 20%;
+  }
+}
+@media (min-width: 1200px) {
+  .smallhome2{
+  	width: 800px;
+  }
+  .smallhome2 h3{
+  	font-size: 30px;
+  }
+  .smallhome3{
+    width: 20%;
+  }
+}

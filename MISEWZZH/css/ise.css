@@ -1,0 +1,15 @@
+html,body{padding:0; margin:0;}
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td ,span{ margin: 0; padding: 0 }
+body, button, input, select, textarea { font: 12px/1.5 "Microsoft YaHei", 微软雅黑,\9ed1\4f53,\5b8b\4f53, "Microsoft JhengHei", 华文细黑, STHeiti, MingLiu; color:#666 }
+h1, h2, h3, h4, h5, h6 { font-size: 100% }
+address, cite, dfn, em, var { font-style: normal }
+ul, ol, dl { list-style: none }
+a { text-decoration: none; outline:medium none ;display: inline-block;font-family:"Microsoft YaHei", 微软雅黑,\9ed1\4f53,\5b8b\4f53, "Microsoft JhengHei", 华文细黑, STHeiti, MingLiu;cursor: pointer;}
+a:link,a:hover,a:active{text-decoration: none;outline: none;}
+img { border: 0 }
+button, input, select, textarea { font-size: 100% ;font-family:"Microsoft YaHei", 微软雅黑,\9ed1\4f53,\5b8b\4f53, "Microsoft JhengHei", 华文细黑, STHeiti, MingLiu;outline:medium none;}
+table { border-collapse: collapse; border-spacing: 0 }
+.clear{*zoom:1;}
+.clear:after{display:block;clear:both;content:"\0020";visibility:hidden;height:0;}
+.cl:before{content: ''; display: table;}
+.cl:after{content: ''; display: table; clear: both}

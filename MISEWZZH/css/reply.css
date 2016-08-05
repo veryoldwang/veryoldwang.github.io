@@ -1,0 +1,122 @@
+@charset "utf-8";
+/*css Document*/
+.reply{
+	margin: 50px auto;
+	font-size: 14px;
+	color: #414141;
+}
+.reply-one{
+	margin: 20px auto;
+}
+.reply-one h3{
+	color: #414141;
+	font-size: 24px;
+	padding-left: 0;
+}
+.reply-two{
+  height: 33px;
+  margin: 5px auto;
+  padding-left: 0;
+}
+.reply-three{
+  border-bottom: 2px solid #fff;
+  height: 40px;
+  margin: 0 auto;
+}
+.reply-three span{
+  color: #a6a6a6;
+  font-size: 18px;
+}
+.reply-three span:nth-child(1){
+  padding-left: 0;
+}
+.reply-three span:nth-child(2){
+  color: #0061a5;
+  margin-left: 10px;
+}
+.reply-four{
+  margin: 30px auto 0;
+  width: 100%;
+}
+.reply-four textarea{
+  border-radius: 4px;
+  border: 1px solid #d3d3d3;
+  font-size: 14px;
+  height: 139px;
+  padding: 10px;
+  resize: none;
+  width: 100%;
+}
+.reply-five{
+  margin: 5px auto 0;
+  padding-left: 0;
+}
+#show{
+	color: #000;
+	font-size: 12px;
+	height: 20px;
+	line-height: 20px;
+	text-align: left;
+}
+#sid{
+	color: red;
+	font-size: 16px;
+}
+.reply-six{
+  height: 42px;
+  margin: 30px auto 0;
+  line-height: 42px;
+  width: 100%;
+}
+.reply-six input{
+  float: right;
+  background-color: #b9b9b9;
+  border-radius: 4px;
+  border: 1px solid #575757;
+  color: #fff;
+  height: 42px;
+  line-height: 42px;
+  width: 120px;
+}
+@media (min-width: 768px) {
+  .reply{
+  	margin: 50px auto;
+  }
+  .reply-two,.reply-one h3,.reply-three span:nth-child(1),.reply-five{
+    padding-left: 0;
+  }
+  .reply-two{
+    margin: 5px auto;
+  }
+  .reply-four,.reply-six{
+    width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .reply{
+  	margin: 100px auto;
+  }
+  .reply-two,.reply-one h3,.reply-three span:nth-child(1),.reply-five{
+    padding-left: 25px;
+  }
+  .reply-two{
+    margin: 20px auto;
+  }
+  .reply-four,.reply-six{
+    width: 95%;
+  }
+}
+@media (min-width: 1200px) {
+  .reply{
+  	margin: 100px auto;
+  }
+  .reply-two,.reply-one h3,.reply-three span:nth-child(1),.reply-five{
+    padding-left: 25px;
+  }
+  .reply-two{
+    margin: 20px auto;
+  }
+  .reply-four,.reply-six{
+    width: 95%;
+  }
+}

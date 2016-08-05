@@ -1,0 +1,103 @@
+@charset "utf-8";
+/*css Document*/
+.app{
+	margin-top: 115px;
+}
+.iseapp-top img{
+	margin:0 auto;
+	width: 100%;
+}
+.iseapp-app{
+	height: 92px;
+}
+.iseapp-app img{
+	float: left;
+	width: 109px;
+	height: 92px;
+	cursor: pointer;
+}
+.iseapp-app p{
+	color: #7e7e7e;
+	cursor: pointer;
+	font-size: 25px;
+	margin-left: 10px;
+	float: left;
+	padding-top: 55px;
+}
+#iseapp_img1{
+	display: block;
+}
+#iseapp_img2{
+	display: none;
+}
+
+#iseshop_img1{
+	display: block;
+}
+#iseshop_img2{
+	display: none;
+}
+.code{
+	text-align: center;
+	color: #414141;
+	font-family: "黑体";
+	font-size: 14px;
+	margin: 5px auto 0;
+}
+.iseapp-img{
+	margin: 70px auto;
+	color: #b5b5b4;
+	font-family: "黑体";
+	font-size: 14px;
+	height: 100px;
+	width: 100%;
+}
+.iseapp-o{
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+.iseapp-a{
+	float: right;
+	width: 50%;
+	text-align: center;
+}
+#iseapp{
+	display: block;
+}
+#iseshop{
+	display: none;
+}
+@media (min-width: 768px) {
+  .app{
+	margin-top: 50px;
+  }
+  .iseapp-img{
+  	width: 100%;
+  	font-size: 14px;
+  }
+}
+@media (min-width: 992px) {
+  .app{
+	margin-top: 100px;
+  }
+  .iseapp-top img{
+	float: right;
+  }
+  .iseapp-img{
+  	width: 80%;
+  	font-size: 18px;
+  }
+}
+@media (min-width: 1200px) {
+  .app{
+	margin-top: 100px;
+  }
+  .iseapp-top img{
+	float: right;
+  }
+  .iseapp-img{
+  	width: 80%;
+  	font-size: 18px;
+  }
+}

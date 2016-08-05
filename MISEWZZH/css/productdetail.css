@@ -1,0 +1,177 @@
+@charset "utf-8";
+/*css Document*/
+.sector-nav{
+	background-color: #e5e5e3;
+	height: 50px;
+	width: 100%;
+	line-height: 50px;
+}
+.sector-parameter ul{
+	margin:0 auto;
+}
+.sector-parameter ul li{
+	float: left;
+	font-family: "微软雅黑";
+	font-size: 12px;
+}
+.sector-parameter ul li a{
+	color: #8c8c8c;
+}
+.sector-parameter ul li.lines{
+	color: #cac9c9;
+	font-size: 12px;
+	margin: 0 5px;
+}
+.sector{
+	margin-top: 40px;
+	font-size: 14px;
+	color: #333;
+	font-family: "微软雅黑";
+}
+.sector-head{
+	text-align: center;
+}
+.sector-head h2{
+	color: #0c0c0c;
+	font-size: 20px;
+}
+.sector-one{
+	margin-top: 0;
+}
+.macth{
+    font-size: 28px;
+    color: #010101;
+    margin-top: 25px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.sector-head a{
+	margin-top: 25px;
+	background-color: #2ca824;
+	border-radius: 60px;
+	width: 120px;
+	height: 35px;
+	line-height: 35px;
+	color: #fff;
+}
+.sector-head a:hover{
+	background-color: #228a1b;
+}
+.sectorDetail_two{
+	margin: 20px auto 0;
+}
+.sectorDetail_two img{
+	width: 100%;
+	margin: 0 auto;
+}
+.parameters{
+	margin-top: 0;
+}
+.sectorDetail_two h2{
+	font-size: 16px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+.sectorDetail_two ul{
+	height: 30px;
+	line-height: 30px;
+	width: 100%;
+	margin: 0 auto;
+}
+.sectorDetail_two ul li{
+	float: left;
+	font-size: 14px;
+	height: 30px;
+	line-height: 30px;
+	margin-right: 5px;
+}
+.sectorDetail_two p{
+	font-size: 14px;
+	line-height: 1.5em;
+	margin: 0 auto;
+	width: 100%;
+	padding: 5px;
+}
+@media (min-width: 768px) {
+  .sector-parameter ul li{
+	font-size: 12px;
+  } 
+  .sector-parameter ul li.lines{
+  	margin: 0 5px;
+  } 
+  .sector-parameter ul{
+	margin:0 auto;
+  }
+  .sector-head h2{
+  	font-size: 20px;
+  }
+  .macth{
+  	font-size: 28px;
+  	margin-top: 25px;
+  }
+  .sectorDetail_two img,.sectorDetail_two ul,.sectorDetail_two p{
+  	width: 100%;
+  }
+  .sector{
+  	margin-top: 40px;
+  }
+  .sector-head a{
+  	margin-top: 25px;
+  }
+}
+@media (min-width: 992px) {
+  .sector-parameter ul li{
+	font-size: 14px;
+  }
+  .sector-parameter ul li.lines{
+  	margin: 0 10px;
+  }
+  .sector-parameter ul{
+	float: right;
+  }
+  .sector-head h2{
+  	font-size: 36px;
+  }
+  .macth{
+  	font-size: 48px;
+  	margin-top: 50px;
+  }
+  .sectorDetail_two img,.sectorDetail_two ul,.sectorDetail_two p{
+  	width: 71%;
+  }
+  .sector{
+  	margin-top: 80px;
+  }
+  .sector-head a{
+  	margin-top: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  .sector-parameter ul li{
+	font-size: 14px;
+  }
+  .sector-parameter ul li.lines{
+  	margin: 0 10px;
+  }
+  .sector-parameter ul{
+	float: right;
+  }
+  .sector-head h2{
+  	font-size: 36px;
+  }
+  .macth{
+  	font-size: 48px;
+  	margin-top: 50px;
+  }
+  .sectorDetail_two img,.sectorDetail_two ul,.sectorDetail_two p{
+  	width: 71%;
+  }
+  .sector{
+  	margin-top: 80px;
+  }
+  .sector-head a{
+  	margin-top: 50px;
+  }
+}

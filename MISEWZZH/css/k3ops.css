@@ -1,0 +1,143 @@
+@charset "utf-8";
+/*css Document*/
+.k3ops{
+   width: 100%;
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: 100% 100%;
+   height: 400px;
+}
+.k3ops1{
+   background-image: url(../images/newk3ops1.jpg); 
+   margin-top: 65px;  
+}
+.k3ops2{
+   background-image: url(../images/newk3ops2.jpg);   
+}
+.k3ops3{
+   background-image: url(../images/newk3ops3.jpg);   
+}
+.k3ops4{
+   background-image: url(../images/newk3ops4.jpg);   
+}
+.k3ops5{
+   background-image: url(../images/newk3ops5.jpg);   
+}
+.k3ops11,.k3ops12{
+	position: relative;
+	height: 400px;
+	margin: 0 auto;
+	width: auto;
+}
+.k3ops11 a{
+	position: absolute;
+	right: 15px;
+	top: 40%;
+	color: blue;
+}
+.k3ops11 a:hover{
+	text-decoration: underline;
+}
+.k3ops11 p,.k3ops12 p{
+	position: absolute;
+	bottom: 20px;
+	color: #414141;
+	font-size: 14px;
+}
+.k3ops6{
+	margin-top: 80px;
+	margin-bottom: 80px;
+	color: #a6a6a6;
+	font-size: 24px;
+}
+.k3ops6-l{
+	float: left;
+	height: 60px;
+	line-height: 60px;
+	width: 49.9%;
+	text-align: center;
+}
+.k3ops6-c{
+	float: left;
+	width: 1px;
+	height: 60px;
+	background-color: #a6a6a6;
+}
+.k3ops6-r{
+	float: right;
+	height: 60px;
+	line-height: 60px;
+	width: 49.9%;
+	text-align: center;
+}
+@media (min-width: 768px) {
+  .k3ops,.k3ops11,.k3ops12{
+  	height: 400px;
+  }
+  .k3ops11,.k3ops12{
+  	width: auto;
+  }
+  .k3ops11 p,.k3ops12 p{
+  	bottom: 20px;
+  }
+  .k3ops6{
+	margin-top: 80px;
+	margin-bottom: 80px;
+  }
+  .k3ops6-l,.k3ops6-c,.k3ops6-r{
+	height: 60px;
+	line-height: 60px;
+  }
+}
+@media (min-width: 992px) {
+  .k3ops,.k3ops11,.k3ops12{
+    height: 600px; 
+  }
+  .k3ops11{
+  	width: 980px;
+  }
+  .k3ops11 p,.k3ops12 p{
+  	bottom: 40px;
+  }
+  .k3ops12{
+	width: 940px;
+  }
+  .k3ops12 p{
+  	width: 940px;
+  	text-align: center;
+  }
+  .k3ops6{
+	margin-top: 250px;
+	margin-bottom: 250px;
+  }
+  .k3ops6-l,.k3ops6-c,.k3ops6-r{
+	height: 120px;
+	line-height: 120px;
+  }
+}
+@media (min-width: 1200px) {
+  .k3ops,.k3ops11,.k3ops12{
+    height: 600px; 
+  }
+  .k3ops11,.k3ops12{
+  	width: 980px;
+  }
+  .k3ops11 p,.k3ops12 p{
+  	bottom: 40px;
+  }
+  .k3ops12{
+	width: 940px;
+  }
+  .k3ops12 p{
+  	width: 940px;
+  	text-align: center;
+  }
+  .k3ops6{
+	margin-top: 250px;
+	margin-bottom: 250px;
+  }
+  .k3ops6-l,.k3ops6-c,.k3ops6-r{
+	height: 120px;
+	line-height: 120px;
+  }
+}

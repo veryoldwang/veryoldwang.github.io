@@ -1,0 +1,120 @@
+@charset "utf-8";
+/*css Document*/
+.feedback{
+	margin: 85px auto 0;
+	text-align: center;
+}
+.board{
+	margin: 20px auto;
+	width: 100%;
+	text-align: left;
+}
+.board p{
+	font-size: 14px;
+	color: #414141;
+}
+.inputdiv{
+    margin-top: 10px;
+}
+.inputdiv span{
+	color: #414141;
+	font-size: 18px;
+	height: 42px;
+	line-height: 42px;'
+	float: left;
+	text-align: center;
+	display: inline-block;
+}
+.inputdiv input{
+	background-color: #f3f4ef;
+	border: 1px solid #575757;
+	border-radius: 4px;
+	font-size: 14px;
+	height: 42px;
+	line-height: 42px;
+	padding: 0 10px;
+	width: 88%;
+	float: right;
+}
+.textdiv{
+	margin-top: 10px;
+	height: 139px;
+}
+.textdiv span{
+	color: #414141;
+	font-size: 18px;
+	height: 42px;
+	line-height: 42px;'
+	float: left;
+	text-align: center;
+	display: inline-block;
+}
+.textdiv textarea{
+	background-color: #f3f4ef;
+	border: 1px solid #575757;
+	border-radius: 4px;
+	height: 139px;
+	padding: 10px;
+	width: 88%;
+	resize: none;
+	float: right;
+}
+.submitdiv{
+	margin-top: 10px;
+	text-align: center;
+}
+#show{
+	color: #000;
+	font-size: 12px;
+	height: 42px;
+	line-height: 42px;
+	text-align: left;
+	margin-left: 12%;
+}
+#sid{
+	color: red;
+	font-size: 16px;
+}
+.submitdiv button{
+	float: right;
+	background-color: #b9b9b9;
+	border: 1px solid #575757;
+	border-radius: 4px;
+	color: #f9f9f9;
+	height: 42px;
+	line-height: 42px;
+	width: 120px;
+}
+@media (min-width: 768px) {
+  .board{
+  	width: 100%;
+  }
+  .inputdiv input,.textdiv textarea{
+  	width: 88%;
+  }
+  .feedback{
+  	margin: 50px auto 0;
+  }
+}
+@media (min-width: 992px) {
+  .board{
+  	width: 75%;
+  }
+  .inputdiv input,.textdiv textarea{
+  	width: 94%;
+  }
+  .feedback{
+  	margin: 100px auto 0;
+  }
+}
+@media (min-width: 1200px) {
+  .board{
+  	width: 75%;
+  }
+  .inputdiv input,.textdiv textarea{
+  	width: 94%;
+  }
+  .feedback{
+  	margin: 100px auto 0;
+  }
+}

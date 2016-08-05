@@ -1,0 +1,36 @@
+@charset "utf-8";
+/*css Document*/
+.industrydetail{
+	margin: 40px auto;
+	width: 100%;
+}
+.industrydetail img{
+	margin: 0 auto;
+	width: 100%;
+}
+.industrydetail p{
+	white-space: normal;
+	line-height: 2em;
+	font-size: 18px;
+	margin-top: 30px;
+	font-family: "微软雅黑";
+}
+.industrydetail strong{
+	font-size: 18px;
+	font-family: "微软雅黑";
+}
+@media (min-width: 768px) {
+  .industrydetail{
+	width: 100%;
+  }  
+}
+@media (min-width: 992px) {
+  .industrydetail{
+	width: 71%;
+  }
+}
+@media (min-width: 1200px) {
+  .industrydetail{
+	width: 71%;
+  }
+}

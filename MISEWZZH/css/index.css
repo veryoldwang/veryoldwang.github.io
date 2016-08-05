@@ -1,0 +1,243 @@
+@charset "utf-8";
+/*css Document*/
+body{
+	background-color: #f3f4ef;
+    -webkit-font-smoothing: antialiased;
+      font: normal 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.lunbo{
+  margin-top: 65px;
+}
+.swiper-pagination{
+  margin: 0 auto;
+}
+/*行业视点*/
+.industeryview{
+  margin-top: 20px;
+}
+.industeryview-l{
+  float: left;
+  width: 156px;
+  height: 43px;
+}
+.industeryview-r{
+  float: right;
+}
+.chakan{
+  color: #a6a6a6;
+  font-size: 16px;
+  outline: none;
+  line-height: 43px;
+}
+.industeryviewcontainer,.intellectualproductscontainer,.videoshows{
+  background-color: #fff;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.176);
+  margin: 10px auto;
+  width: 100%;
+}
+.industeryviewcontainer-l{
+  text-align: center;
+}
+.viewimg{
+  margin: 40px auto;
+}
+.industeryviewcontainer-r a{
+  color: #a6a6a6;
+  cursor: default;
+  font-size: 14px;
+  line-height: 20px;
+  outline: none;
+}
+.industeryviewcontainer-r-one{
+  width: 100%;
+  height: 30px;
+}
+.industeryviewcontainer-r-one a{
+  color: #0061a5;
+  font-size: 18px;
+  outline: none;
+}
+.industeryviewcontainer-r-two{
+  margin-top: 10px;
+}
+.industeryviewcontainer-r-three{
+    margin-top: 20px;
+    padding-bottom: 40px;
+  }
+.industeryviewcontainer-r-three span:nth-child(1){
+  color: #a6a6a6;
+  font-size: 14px;
+  margin-right: 10px;
+}
+.industeryviewcontainer-r-three span:nth-child(2){
+  color: #0061a5;
+  font-size: 14px;
+  margin-left: 10px;
+}
+.intellectualproducts{
+  margin-top: 15px;
+}
+/*智能产品*/
+.products{
+  padding: 0;
+}
+.productsimg{
+  padding: 0;
+  margin: 47px auto;
+  text-align: center;
+}
+.productstxt{
+  margin-top: 60px;
+}
+.productstxt h4{
+  font-size: 18px;
+}
+.productstxt p,.pcomments2 p{
+  color: #a6a6a6;
+  font-size: 14px;
+  line-height: 23px;
+  margin-top: 20px;
+}
+.pcomments1{
+  margin-top: 60px;
+  color: #0061a5; 
+  height: 20px;
+  line-height: 20px;
+}
+.pcomments1 span:nth-child(1){
+  float: left;
+  font-size: 18px;
+}
+.pcomments1 span:nth-child(2){
+  float: right;
+  font-size: 16px;
+}
+.pcomments2{
+  padding-bottom: 40px;
+}
+/*视频展示*/
+.video{
+  position: relative;
+  margin-top: 28px;
+  text-align: center;
+}
+.video p{
+  color: #414141;
+  font-size: 20px;
+  text-align: center;
+  line-height: 75px;
+}
+.video_play{
+  position: absolute;
+  left: 40%;
+  top: 20%;
+}
+@media (min-width: 768px) {
+  .industeryviewcontainer,.intellectualproductscontainer,.videoshows{
+    height: auto;
+    background-color: #fff;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.176);
+    margin: 10px auto;
+  }
+  .intellectualproducts{
+    margin-top: 15px; 
+  }
+  .viewimg{
+    height: auto;
+  }
+  .industeryviewcontainer-r-one{
+    margin-top: 0;
+  }
+  .industeryview-l{
+    width: 156px;
+    height: 43px;
+  }
+  .chakan{
+    font-size: 16px;
+  }
+  .pcomments2{
+    padding-bottom: 40px;
+  }
+  .industeryview{
+    margin-top: 20px;
+  }
+}
+@media (min-width: 992px) {
+  .industeryviewcontainer,.intellectualproductscontainer{
+    height: 300px;
+  }
+  .industeryviewcontainer,.intellectualproductscontainer,.videoshows{
+    margin: 30px auto;
+  }
+  .intellectualproducts{
+    margin-top: 30px; 
+  }
+  .videoshows{
+    height: 340px;
+  }
+  .viewimg{
+    width: 300px;
+    height: 220px;
+  }
+  .industeryviewcontainer-r-one{
+    margin-top: 40px;
+  }
+  .industeryviewcontainer-r-three{
+    margin-top: 50px;
+  }
+  .industeryview-l{
+    width: 256px;
+    height: 71px;
+  }
+  .chakan{
+    font-size: 20px;
+    line-height: 71px;
+  }
+  .pcomments2{
+    padding-bottom: 0;
+  }
+  .industeryview{
+    margin-top: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  .industeryviewcontainer,.intellectualproductscontainer{
+    height: 300px;
+  }
+  .intellectualproducts{
+    margin-top: 30px; 
+  }
+  .industeryviewcontainer,.intellectualproductscontainer,.videoshows{
+    margin: 30px auto;
+  }
+  .videoshows{
+    height: 340px;
+  }
+  .viewimg{
+    width: 300px;
+    height: 220px;
+  }
+  .industeryviewcontainer-r-one{
+    margin-top: 40px;
+  }
+  .industeryviewcontainer-r-three{
+    margin-top: 100px;
+  }
+  .industeryview-l{
+    width: 256px;
+    height: 71px;
+  }
+  .chakan{
+    font-size: 20px;
+    line-height: 71px;
+  }
+  .pcomments2{
+    padding-bottom: 0;
+  }
+  .videoimg{
+    width: 360px;
+  }
+  .industeryview{
+    margin-top: 30px;
+  }
+}

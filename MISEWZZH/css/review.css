@@ -1,0 +1,143 @@
+@charset "utf-8";
+/*css Document*/
+.review{
+	margin: 50px auto;
+	font-size: 14px;
+	color: #414141;
+}
+.review-one{
+	border-bottom: 2px solid #fff;
+	margin: 20px auto;
+}
+.review-one h3{
+	color: #414141;
+	font-size: 24px;
+	padding-left: 0;
+	height: 60px;
+	line-height: 60px;
+}
+.review-two{
+	height: 55px;
+	margin: 0 auto;
+}
+.review-two p{
+	font-size: 14px;
+	padding-left: 0;
+}
+.review-two p:nth-child(1){
+	color: #0061a5;
+	font-size: 16px;
+}
+.review-three{
+	height: 33px;
+	margin: 5px auto;
+	padding-left: 0;
+}
+.review-four{
+	margin: 0 auto;
+	width: 100%;
+}
+.review-four textarea{
+	border-radius: 4px;
+	border: 1px solid #d3d3d3;
+	font-size: 14px;
+	height: 139px;
+	padding: 10px;
+	resize: none;
+	width: 100%;
+}
+.review-five{
+	margin: 5px auto 0;
+	padding-left: 0;
+}
+#show{
+	color: #000;
+	font-size: 12px;
+	height: 20px;
+	line-height: 20px;
+	text-align: left;
+}
+#sid{
+	color: red;
+	font-size: 16px;
+}
+.review-six{
+	height: 42px;
+	margin: 30px auto 0;
+	line-height: 42px;
+	width: 100%;
+}
+.review-six input{
+	width: 100%;
+	border: 1px solid lightgray;
+	border-radius: 4px;
+	height: 42px;
+	background-color: none;
+    line-height: 42px;
+}
+@media (min-width: 768px) {
+  .review{
+  	margin: 50px auto;
+  }
+  .review-one h3{
+  	height: 60px;
+  	line-height: 60px;
+  }
+  .review-two p:nth-child(1){
+    font-size: 16px;
+  }
+  .review-two p,.review-one h3,
+  .review-three,.review-five{
+  	padding-left: 0;
+  }
+  .review-three{
+  	margin: 5px auto;
+  }
+  .review-four,.review-six{
+  	width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .review{
+  	margin: 100px auto;
+  }
+  .review-one h3{
+  	height: 120px;
+  	line-height: 120px;
+  }
+  .review-two p:nth-child(1){
+    font-size: 24px;
+  }
+  .review-two p,.review-one h3,
+  .review-three,.review-five{
+  	padding-left: 25px;
+  }
+  .review-three{
+  	margin: 20px auto;
+  }
+  .review-four,.review-six{
+  	width: 95%;
+  }
+}
+@media (min-width: 1200px) {
+  .review{
+  	margin: 100px auto;
+  }
+  .review-one h3{
+  	height: 120px;
+  	line-height: 120px;
+  }
+  .review-two p:nth-child(1){
+    font-size: 24px;
+  }
+  .review-two p,.review-one h3,
+  .review-three,.review-five{
+  	padding-left: 25px;
+  }
+  .review-three{
+  	margin: 20px auto;
+  }
+  .review-four,.review-six{
+  	width: 95%;
+  }
+}
